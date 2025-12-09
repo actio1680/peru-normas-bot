@@ -20,14 +20,14 @@ Perú Normas  Bot fue programado con un fin académico  y dentro del respeto de 
 [> Repositorio del proyecto](https://github.com/actio1680/peru-normas-bot)
 
 
-///////////////////
+/////////////////////////
 
 ### CONTENIDO
 **1. Descripción de la documentación**
 
 **2. Script Python**
 
-/-/-/-/-/-/
+/////////////////////////
 
 ### 1. DESCRIPCIÓN DE LA DOCUMENTACIÓN
 
