@@ -38,7 +38,7 @@ Perú Normas  Bot fue programado con un fin académico  y dentro del respeto de 
 
 |DOCUMENTO||
 | --- | --- |
-|Script de Python que utiliza el paquete Selenium 4.7|![SCRIPT](https://github.com/actio1680/peru-normas-bot/blob/main/imagen/peru-normas-bot_telegram.jpg)|
+|Script de Python que utiliza el paquete Selenium 4.7|![SCRIPT](imagen/peru-normas-bot_telegram.jpg)|
 ||[Ver Script](https://github.com/actio1680/peru-normas-bot/blob/main/main.py)|
 
 <br>
