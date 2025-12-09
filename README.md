@@ -3,30 +3,23 @@
 
 Publicado: Junio 2023
 
-El presente proyecto utiliza un bot que publica las normas legales de el diario El Peruano, mediante un script configurado en la plataforma Heroku el bot pública el título, el tipo de norma, la fecha de publicación, la descripción de la norma y el enlace de descarga en PDF. Las variables señaladas en el script requieren una configuración en la plataforma en mención. 
+El presente proyecto implementó un bot automatizado en un canal de Telegram para la publicación de normas legales del diario El Peruano. Mediante un script configurado en la plataforma Heroku el bot pública el título, el tipo de norma, la fecha de publicación, la descripción de la norma y el enlace de descarga en PDF. Las variables señaladas en el script requieren una configuración en la plataforma en mención. 
 
-El bot entró en funcionamiento a finales del 2022 realizando publicaciones diarias de manera ininterrumpida.
+El bot entró en funcionamiento a finales del 2022 realizando publicaciones diarias de manera ininterrumpida. En un primer, momento las publicaciones diarias se realizaban a las 6 a.m., luego para mayor seguridad en la completitud de la información se ejecuta a las 8 a.m. [Enlace del canal](https://t.me/peru_normas_bot)
 
-A efectos de probar el bot sin un servidor, puede ser ejecutado de manera local realizando las modifcaciones respectivas. 
+A efectos de probar el bot sin un servidor externo, puede ser ejecutado de manera local realizando las modifcaciones respectivas. 
 
----_
+
+**Proyecto descontinuado:**
+El presente script dejó funcionar en febrero 2024, luego de más de un año de funcionamieto continuo, por políticas internas en Heroku y actualizaciones en la plataforma web de El Peruano. Para fines de investigación se dejó en la carpeta DIC2025 una actualización del script para ejecutar de manera local.
+
+
+**Aviso legal:**
+Perú Normas  Bot fue programado con un fin académico  y dentro del respeto de las regulaciones del Perú.
+
+[> Repositorio del proyecto](https://github.com/actio1680/peru-normas-bot)
+
 ---
-### Aviso legal 
-Perú Normas  Bot fue programado con un fin académico  y dentro del respeto de las regulaciones del Perú
----
-
-**Proyecto descontinuado:** 
-
-El presente script dejó funcionar en febrero 2024, luego de más de un año de funcionamieto continuo, por políticas internas en Heroku y actualizaciones en la plataforma web de El Peruano, 
-El presente script se encuentra desplegado en la plataforma Heroku, por lo que, algunas de sus variables requieren una configuración en la plataforma en mención. 
-Publicaciones diarias (8 a.m.).  
-
-
-### Aviso legal 
-Perú Normas  Bot fue programado con un fin académico  y dentro del respeto de las regulaciones del Perú
-
-
-[> Repositorio del proyecto](https://github.com/actio1680/discurso-presidencial-peru)
 
 ### CONTENIDO
 **1. Descripción de la documentación**
@@ -37,33 +30,7 @@ Perú Normas  Bot fue programado con un fin académico  y dentro del respeto de 
 
 ### 1. DESCRIPCIÓN DE LA DOCUMENTACIÓN
 
-
-
-</br>
-</br>
-
----
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width:A0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /> A menos que se indique lo contrario, esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional</a>.
-
-
-## Discursos presidenciales del Perú [1]
-
-[> Repositorio del proyecto](https://github.com/actio1680/discurso-presidencial-peru)
-
-### CONTENIDO
-**1. Descripción de la documentación**
-
-**2. Script Python**
-
----
-
-### 1. DESCRIPCIÓN DE LA DOCUMENTACIÓN
-- **discursos_peru_pdf**: Contiene los discursos en formato PDF utilizados para el diseño de la nube de palabras. Las letras corresponden a la etiqueta creada para la nube de palabras.
-- **resultado_png**: En esta carpeta se guardan los resultados bajo la forma de nubes de palabras (wordclouds) en formato PNG.
-- **Presidentes_y_períodos_.xlsx**: Contiene un descripción detallada de los gobernantes del siglo XIX y XX, períodos y discursos utilizados para el presente análisis.
-- **jupyter_nltk.ipynb**: Es el el código en formato jupyter para la generación de la nube de palabras. 
-- **script_nltk.py**: Es el código en formato script utilizado para la generación de la nube de palabras. En este caso, puede utilizarse este o el código de jupyter notebook para el análisis del lenguaje en nube de palabras.
-
+- **main.py**: Es el código en lenguaje python utilizado para el raspado web (scraping). El script es desplegado en Heroku, y ejecutado diariamente en un bot de Telegram. La actualización del script solo funciona de manera local.
 
 
 ### 2. SCRIPT PYTHON
@@ -71,8 +38,8 @@ Perú Normas  Bot fue programado con un fin académico  y dentro del respeto de 
 
 |DOCUMENTO||
 | --- | --- |
-|Script de Python que utiliza el paquete Natural Language Toolkit (NLTK)|![SCRIPT](https://raw.githubusercontent.com/actio1680/discurso-presidencial-peru/refs/heads/main/discurso-presidencial.JPG)|
-||[Ver Script](https://github.com/actio1680/discurso-presidencial-peru/blob/main/script_nltk.py)|
+|Script de Python que utiliza el paquete Selenium 4.7|![SCRIPT](https://github.com/actio1680/peru-normas-bot/blob/main/imagen/peru-normas-bot_telegram.jpg)|
+||[Ver Script](https://github.com/actio1680/peru-normas-bot/blob/main/main.py)|
 
 <br>
 <div align="right">
@@ -82,6 +49,3 @@ Perú Normas  Bot fue programado con un fin académico  y dentro del respeto de 
 
 [Subir](#top)
 
-
----
-[1]: Proyecto elaborado en colaboración con [Social-Lab](https://www.facebook.com/profile.php?id=100092960187270)
