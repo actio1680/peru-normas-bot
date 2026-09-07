@@ -11,7 +11,7 @@ A efectos de probar el bot sin un servidor externo, puede ser ejecutado de maner
 
 
 **Proyecto descontinuado:**
-El presente script dejó funcionar en febrero 2024, luego de más de un año de funcionamieto continuo, por políticas internas en Heroku y actualizaciones en la plataforma web de El Peruano. Para fines de investigación se dejó en la carpeta DIC2025 una actualización del script para ejecutar de manera local.
+El presente script dejó funcionar en febrero 2024, luego de más de un año de despliegue, por políticas internas en Heroku y actualizaciones en la plataforma web de El Peruano. Para fines de investigación se dejó en la carpeta DIC2025 una actualización del script para ejecutar de manera local.
 
 
 **Aviso legal:**
